@@ -1,0 +1,27 @@
+{
+  "name": "flexwind",
+  "version": "0.0.1",
+  "description": "Flexible and Highly Customizable Hugo Theme built with TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqpp/flexwind.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "hugo",
+    "blog"
+  ],
+  "author": "sqpp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqpp/flexwind/issues"
+  },
+  "homepage": "https://github.com/sqpp/flexwind#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}

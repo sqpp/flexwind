@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+{{ if eq  $.Site.Params.layout "wide"  }} 
+    <body class="grid min-h-screen grid-rows-[auto_1fr_auto]">
+        {{- partial "header.html" . -}}
+        <div id="content" class="flex h-full grow bg-slate-100">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+{{ else if eq $.Site.Params.layout "box" }}
+    <body class="mx-auto max-w-7xl bg-slate-300">
+        {{- partial "header-box.html" . -}}
+        <div id="content" class="">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+{{ else }}
+    <body class="w-96">
+        {{ $.Site.Params.layout }}
+        {{- partial "header.html" . -}}
+        <div id="content" class="">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+{{ end }}
+</html>

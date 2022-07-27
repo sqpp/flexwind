@@ -1,0 +1,38 @@
+# @Name: Flexwind & Hugo Core Configuration
+# @Author: Marcell Csendes
+# @Github: https://github.com/sqpp/flexwind
+# @License: !MIT[https://github.com/sqpp/flexwind/blob/main/LICENSE]
+
+# Hugo Core configuration
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Flexwind
+theme: flexwind
+
+# DO NOT TOUCH ME
+module:
+  mounts:
+    - source: assets
+      target: assets
+
+# Flexwind Customizations
+params:
+  hometitle: Home
+  business: false
+  theme: flexwind
+  layout: wide # Wide: Full-width page layout || Box: Boxed page layout
+  topbar:
+    core: true # Enables Topbar Globally.
+    weather: true # Enables Weather in Topbar via OpenWeather API
+    location: Budapest # Location in Topbar and for Weather
+    button: true # Topbar button
+    buttonText: Login # Topbar button Text
+    link: 'https://tailwindcss.com' # Topbar Button Link
+
+# Main Menu
+menu:
+  main:
+    - name: About
+      url: /
+      ref: about
+      weight: 1
