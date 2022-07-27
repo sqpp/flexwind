@@ -1,11 +1,35 @@
 # Flexwind
 Flexible and Highly Customizable Hugo Theme built with TailwindCSS for multi-purpose use.
 
-# Themes
-Flexwind gives you 4 color scheme, 6 header layouts with tons of custimizations... More coming soon...
+
+# Features
+- 1+4 theme (color scheme)
+- Fully responsive
+- 6 Fully Customizable Header layout
+- Native Darkmode (system prefered, light, dark)
+- Optional Topbar
+- Optional Animations
+- Search Engine Console Support (Google, Bing, Yahoo, Yandex)
+- Google Analytics support
+- Meta Support
+- RTL and LTR Support
+- OpenWeather API Support
+- Discus Comments Support
+- Accessibility [Screen Reader] Support
+
+
+# Themes (Color Scheme)
+
+Flexwind gives you 1+4 color scheme, 6 header layouts with tons of custimizations... More coming soon...
+- Flexwind (default)
+- Cool
+- Supreme
+- Delight
+- Gold
+
 
 ## Configuration
-As Flexwind is highly customizable, we created a documentation page here.
+As Flexwind is highly customizable, we created a [documentation page](https://stackoverflow.com)
 
 ## Setup
  Work in progress...
