@@ -13,7 +13,7 @@ Flexible and Highly Customizable Hugo Theme built with TailwindCSS for multi-pur
 - Optional Animations
 - Search Engine Console Support (Google, Bing, Yahoo, Yandex)
 - Google Analytics Support
-- Meta Support
+- SEO/Metadata Friendly
 - Icon Support (Font Awesome & Line Awesome)
 - Multilanguage Support
 - RTL and LTR Support
