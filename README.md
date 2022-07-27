@@ -6,16 +6,21 @@ Flexible and Highly Customizable Hugo Theme built with TailwindCSS for multi-pur
 - 1+4 theme (color scheme)
 - Fully responsive
 - 6 Fully Customizable Header layout
+- 5 Preloaders
+- eCommerce Support (with Currency and Product Layouts)
 - Native Darkmode (system prefered, light, dark)
 - Optional Topbar
 - Optional Animations
 - Search Engine Console Support (Google, Bing, Yahoo, Yandex)
-- Google Analytics support
+- Google Analytics Support
 - Meta Support
+- Icon Support (Font Awesome & Line Awesome)
+- Multilanguage Support
 - RTL and LTR Support
 - OpenWeather API Support
 - Discus Comments Support
 - Accessibility [Screen Reader] Support
+- Google Fonts Support
 
 
 # Themes (Color Scheme)
